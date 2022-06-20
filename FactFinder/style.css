@@ -1,0 +1,49 @@
+main{
+	border: 5px groove #0E34A0;
+	background-color: #F08700;
+	display: grid;
+	width: 800px;
+	height: 600px;
+	grid-template-rows: 100px auto;
+	
+}
+
+#factdisplay{
+	border: 5px dashed #C8E13D;
+	font-family: 'Comic Sans MS';
+	background-color: #FFFFFF;
+	padding:15px;
+}
+
+form{
+	border: 5px solid #F08700;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 15px;
+	padding: 15px;
+}
+
+body{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+
+input{
+	border: 5px groove #00FFFF;
+	font-family: 'Impact';
+	background-color: #C8E13D;
+	border-radius: 20px;
+}
+
+input:hover{
+	background-color: #FFCAD4;
+}
+
+img{
+	display: block;
+	margin: auto;
+	width: 350px;
+	height: 325px;
+	padding: 30px;
+}
